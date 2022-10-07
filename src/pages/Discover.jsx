@@ -47,5 +47,5 @@ const Discover = () => {
     </div>
   );
 };
-
+//need to chack errors//
 export default Discover;
