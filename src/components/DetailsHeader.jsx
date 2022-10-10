@@ -10,7 +10,7 @@ return (
     <div className="absolute inset-0 flex items-center">
       <img 
       alt="art" 
-      src={artistId ? artist?.artists[artistId].attributes?.artwork?.url.replace('{w}', '500').replace('{h}','500') 
+      src={artistId ? artistData?.artists[artistId].attributes?.artwork?.url.replace('{w}', '500').replace('{h}','500') 
        :songData?.images?.coverart}
       className='sm:w-48 w-28 sm:h-48 h-28 rounded-full object-cover border-2 shadow-x1 shadow-black'
       />
